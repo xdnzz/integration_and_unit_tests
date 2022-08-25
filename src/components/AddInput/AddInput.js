@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import "./AddInput.css"
 import { v4 } from "uuid"
+import {Secao} from '../secao/Secao'
+
+const arr = ['Dio','Personagem1','Personagem2','Personagem3','Personagem4','Personagem5']
 
 function AddInput({
     setTodos, todos
@@ -30,12 +33,15 @@ function AddInput({
                 onChange={(e) => setTodo(e.target.value)}
                 placeholder="Add a new task here..."
             />
-            <button 
-                className="add-btn"
-                onClick={addTodo}
-            >
-                Add
-            </button>
+           
+        <Secao texto="oi"/>
+        <Secao texto="LOL"/>
+        <Secao texto="sonegar imposto"/>
+        <Secao texto="sonegar imposto"/>
+        <Secao texto="sonegar imposto"/>
+        <Secao texto="sonegar imposto"/>
+        <Secao texto="sonegar imposto"/>
+     
         </div>
     )
 }
