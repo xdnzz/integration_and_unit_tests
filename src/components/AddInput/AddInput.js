@@ -33,14 +33,7 @@ function AddInput({
                 onChange={(e) => setTodo(e.target.value)}
                 placeholder="Add a new task here..."
             />
-           
-        <Secao texto="oi"/>
-        <Secao texto="LOL"/>
-        <Secao texto="sonegar imposto"/>
-        <Secao texto="sonegar imposto"/>
-        <Secao texto="sonegar imposto"/>
-        <Secao texto="sonegar imposto"/>
-        <Secao texto="sonegar imposto"/>
+        <button onClick={addTodo} className="add-btn">Dio Brando</button>
      
         </div>
     )
